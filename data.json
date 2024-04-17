@@ -1,0 +1,23 @@
+{
+    "companies": [
+        {
+            "name": "sursa",
+            "industry": "Technology",
+            "location": "kathmandu",
+            "employees": 100
+        },
+        {
+            "name": "vurilo",
+            "industry": "Technology",
+            "location": "kathmandu",
+            "employees": 100
+        },
+        {
+            "name": "hamro patro",
+            "industry": "Technology",
+            "location": "kathmandu",
+            "employees": 100,
+            "des": "this is patro company"
+        }
+    ]
+}
