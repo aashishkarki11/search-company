@@ -71,10 +71,11 @@
 
         async function fetchAutocompleteSuggestions(searchTerm) {
             try {
-                const response = await fetch(`http://localhost:3001/autocomplete?term=${encodeURIComponent(searchTerm)}`);
-                if (!response.ok) {
-                    throw new Error('Failed to fetch');
-                }
+                const response = await fetch(`https://search-company.vercel.app/autocomplete?term=${encodeURIComponent(searchTerm)}`, {
+                    method: 'GET',
+                    mode: 'cors'
+                });
+                if (!response.ok) throw new Error('Failed to fetch');
                 const suggestions = await response.json();
                 return suggestions;
             } catch (error) {
@@ -85,10 +86,11 @@
 
         async function displayCompanyDetails(companyName) {
             try {
-                const response = await fetch(`http://localhost:3001/company/${encodeURIComponent(companyName)}`);
-                if (!response.ok) {
-                    throw new Error('Failed to fetch company details');
-                }
+                const response = await fetch(`https://search-company.vercel.app/company/${encodeURIComponent(companyName)}`, {
+                    method: 'GET',
+                    mode: 'cors'
+                });
+                if (!response.ok) throw new Error('Failed to fetch company details');
                 const companyDetails = await response.json();
                 showDetails(companyDetails);
             } catch (error) {
