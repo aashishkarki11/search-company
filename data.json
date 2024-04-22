@@ -1,23 +1,64 @@
 {
-    "companies": [
-        {
-            "name": "sursa",
-            "industry": "Technology",
-            "location": "kathmandu",
-            "employees": 100
-        },
-        {
-            "name": "vurilo",
-            "industry": "Technology",
-            "location": "kathmandu",
-            "employees": 100
-        },
-        {
-            "name": "hamro patro",
-            "industry": "Technology",
-            "location": "kathmandu",
-            "employees": 100,
-            "des": "this is patro company"
-        }
-    ]
+  "companies": [
+    {
+      "name": "company 1",
+      "industry": "Technology",
+      "location": "kathmandu",
+      "employees": 100
+    },
+    {
+      "name": "company 2",
+      "industry": "Technology",
+      "location": "kathmandu",
+      "employees": 100
+    },
+    {
+      "name": "company 3",
+      "industry": "Technology",
+      "location": "kathmandu",
+      "employees": 100
+    },
+    {
+      "name": "company 4",
+      "industry": "Technology",
+      "location": "kathmandu",
+      "employees": 100
+    },
+    {
+      "name": "company 5",
+      "industry": "Technology",
+      "location": "kathmandu",
+      "employees": 100
+    },
+    {
+      "name": "company 6",
+      "industry": "Technology",
+      "location": "kathmandu",
+      "employees": 100
+    },
+    {
+      "name": "company 7",
+      "industry": "Technology",
+      "location": "kathmandu",
+      "employees": 100
+    },
+    {
+      "name": "company 8",
+      "industry": "Technology",
+      "location": "kathmandu",
+      "employees": 100
+    },
+    {
+      "name": "company 9",
+      "industry": "Technology",
+      "location": "kathmandu",
+      "employees": 100
+    },
+    {
+      "name": "company 10",
+      "industry": "Technology",
+      "location": "kathmandu",
+      "employees": 100
+    }
+  ]
 }
